@@ -52,6 +52,7 @@ function App(){
         {/* <Route path="/update" component={Update} /> */}
         {/* <Route path="/:id/" element={ Showdetails} /> */}
          <Route  path="/:id" component={Showdetails}  /> 
+         
         
         </Switch>
     </div>
