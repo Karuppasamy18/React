@@ -1,0 +1,47 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    font-family:inherit;
+
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    padding-top: -100px;
+}
+
+.login_form>h1{
+
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.login_form>input{
+    min-width: 380px;
+    padding: 10px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(228, 70, 70);
+    font-family: "Inter";
+    border-radius: 2px;
+    font-size: 15px;
+
+}
+.submit_btn
+{
+    padding: 17px 30px;
+    margin-top: 10px;
+    background: rgb(43, 42, 42);
+    border: none;
+    color: blanchedalmond;
+    font-size: 14px;
+    font-family: "Inter";
+    border-radius: 3px;
+}
